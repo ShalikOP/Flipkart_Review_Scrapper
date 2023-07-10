@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Review Page</title>
+</head>
+
+<body>
+
+  <div class="table-users">
+    <div style="text-align: center; font-weight: bold; font-size: 24px;">Reviews</div>
+
+   <table cellspacing="0">
+      <tr>
+         <th>Product</th>
+         <th>Name</th>
+         <th>Rating</th>
+         <th>Comment Heading</th>
+         <th>mycomment </th>
+         <th width="200">Comments</th>
+      </tr>
+         {% for review in reviews %}
+      <tr>
+          <td>{{review['Product']}}</td>
+         <td>{{review['Name']}}</td>
+         <td>{{review['Rating']}}</td>
+         <td>{{review['CommentHead']}}</td>
+         <td>{{review['Comment']}} </td>
+         <td>{{review['Comment']}} </td>
+       {% endfor %}
+   </table>
+  </div>
+
+
+
+</body>
+
+</html>

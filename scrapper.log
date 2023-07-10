@@ -1,0 +1,349 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 14, in homepage
+    return render_template("index.html")
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/config/workspace/templates/index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: base.html
+INFO:werkzeug:172.18.0.2 - - [09/Jul/2023 23:54:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.18.0.2 - - [09/Jul/2023 23:54:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 14, in homepage
+    return render_template("index.html")
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/config/workspace/templates/index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: base.html
+INFO:werkzeug:172.18.0.2 - - [09/Jul/2023 23:55:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 14, in homepage
+    return render_template("index.html")
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/config/workspace/templates/index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: base.html
+INFO:werkzeug:172.18.0.2 - - [09/Jul/2023 23:55:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 14, in homepage
+    return render_template("index.html")
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/config/workspace/templates/index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: base.html
+INFO:werkzeug:172.18.0.2 - - [09/Jul/2023 23:55:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 14, in homepage
+    return render_template("index.html")
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/config/.local/lib/python3.8/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/config/workspace/templates/index.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/config/.local/lib/python3.8/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: base.html
+INFO:werkzeug:172.18.0.2 - - [09/Jul/2023 23:55:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [09/Jul/2023 23:56:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [09/Jul/2023 23:56:25] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [09/Jul/2023 23:56:26] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone13', 'Name': 'Amrit Deka', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': "My 1st iphone and I'm glad it is. With killer camera, amazing battery life, excellent performance this phone just rocks. The display even though is astounding but, in my opinion Samsung flagships displays are the best. I don't mind the display refresh rate being 60hz as you can hardly tell any difference in day to day use but, cmon apple it's 2022 and nowadays even 15-20k Android phones provide 120hz display. Last but not least security. Hmm well, there is no other phone as much secure as i..."}, {'Product': 'iphone13', 'Name': 'Badri Bishal  Pratihari ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Love this phone..... 😍'}, {'Product': 'iphone13', 'Name': 'Srinivash Bhoi', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Pros-rear Camera is awesome.double speaker sound equal loud and base is superb display superb. Design also good.Battery back up superb.Cons-front camera is good not awesomeAfter switching from android you feel one minus point is the display notch .'}, {'Product': 'iphone13', 'Name': 'Biswabandhu Debnath', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Best phone available at this price point.Camera is comparable with entry level DSLR(marvellous dynamic range)The performance is unmatchable.Shifted to iOS after 10 years of premium android smartphones.Go  for it without any second thought.'}, {'Product': 'iphone13', 'Name': 'Ashish  Kumar', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Just amazing'}, {'Product': 'iphone13', 'Name': 'Aniket Banerjee', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Too good'}, {'Product': 'iphone13', 'Name': 'Prasenjit Bar', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Best phone for day to day use and photography/videography.'}, {'Product': 'iphone13', 'Name': 'Pushpita Mayra', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Awesome phone Excellent camera quality'}, {'Product': 'iphone13', 'Name': 'Sachin Saini', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'My first I phone ..from a long time android user… apple camera is way ahead  ,.. interface is better than android….overall premium features and feeling. .;but prices way aboveboard'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Excellent mobile.. dream purchase'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Excellent mobile.. dream purchase'}]
+INFO:werkzeug:172.18.0.2 - - [09/Jul/2023 23:56:33] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [09/Jul/2023 23:56:33] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [09/Jul/2023 23:56:33] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [09/Jul/2023 23:57:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:00:57] "GET / HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone13', 'Name': 'Amrit Deka', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': "My 1st iphone and I'm glad it is. With killer camera, amazing battery life, excellent performance this phone just rocks. The display even though is astounding but, in my opinion Samsung flagships displays are the best. I don't mind the display refresh rate being 60hz as you can hardly tell any difference in day to day use but, cmon apple it's 2022 and nowadays even 15-20k Android phones provide 120hz display. Last but not least security. Hmm well, there is no other phone as much secure as i..."}, {'Product': 'iphone13', 'Name': 'Badri Bishal  Pratihari ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Love this phone..... 😍'}, {'Product': 'iphone13', 'Name': 'Srinivash Bhoi', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Pros-rear Camera is awesome.double speaker sound equal loud and base is superb display superb. Design also good.Battery back up superb.Cons-front camera is good not awesomeAfter switching from android you feel one minus point is the display notch .'}, {'Product': 'iphone13', 'Name': 'Biswabandhu Debnath', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Best phone available at this price point.Camera is comparable with entry level DSLR(marvellous dynamic range)The performance is unmatchable.Shifted to iOS after 10 years of premium android smartphones.Go  for it without any second thought.'}, {'Product': 'iphone13', 'Name': 'Ashish  Kumar', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Just amazing'}, {'Product': 'iphone13', 'Name': 'Aniket Banerjee', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Too good'}, {'Product': 'iphone13', 'Name': 'Prasenjit Bar', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Best phone for day to day use and photography/videography.'}, {'Product': 'iphone13', 'Name': 'Pushpita Mayra', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Awesome phone Excellent camera quality'}, {'Product': 'iphone13', 'Name': 'Sachin Saini', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'My first I phone ..from a long time android user… apple camera is way ahead  ,.. interface is better than android….overall premium features and feeling. .;but prices way aboveboard'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Excellent mobile.. dream purchase'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Excellent mobile.. dream purchase'}]
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:01:03] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:01:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:01:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:02:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:02:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:03:35] "GET / HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone13', 'Name': 'Amrit Deka', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': "My 1st iphone and I'm glad it is. With killer camera, amazing battery life, excellent performance this phone just rocks. The display even though is astounding but, in my opinion Samsung flagships displays are the best. I don't mind the display refresh rate being 60hz as you can hardly tell any difference in day to day use but, cmon apple it's 2022 and nowadays even 15-20k Android phones provide 120hz display. Last but not least security. Hmm well, there is no other phone as much secure as i..."}, {'Product': 'iphone13', 'Name': 'Badri Bishal  Pratihari ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Love this phone..... 😍'}, {'Product': 'iphone13', 'Name': 'Srinivash Bhoi', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Pros-rear Camera is awesome.double speaker sound equal loud and base is superb display superb. Design also good.Battery back up superb.Cons-front camera is good not awesomeAfter switching from android you feel one minus point is the display notch .'}, {'Product': 'iphone13', 'Name': 'Biswabandhu Debnath', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Best phone available at this price point.Camera is comparable with entry level DSLR(marvellous dynamic range)The performance is unmatchable.Shifted to iOS after 10 years of premium android smartphones.Go  for it without any second thought.'}, {'Product': 'iphone13', 'Name': 'Ashish  Kumar', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Just amazing'}, {'Product': 'iphone13', 'Name': 'Aniket Banerjee', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Too good'}, {'Product': 'iphone13', 'Name': 'Prasenjit Bar', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Best phone for day to day use and photography/videography.'}, {'Product': 'iphone13', 'Name': 'Pushpita Mayra', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Awesome phone Excellent camera quality'}, {'Product': 'iphone13', 'Name': 'Sachin Saini', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'My first I phone ..from a long time android user… apple camera is way ahead  ,.. interface is better than android….overall premium features and feeling. .;but prices way aboveboard'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Excellent mobile.. dream purchase'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Excellent mobile.. dream purchase'}]
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:03:41] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'Tv', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': "Thank you so much online Flipkart for your gift in my birthday date. I'm so happy for this product thank you dyanora  company 💖"}, {'Product': 'Tv', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Delightful', 'Comment': 'Very good product I like it'}, {'Product': 'Tv', 'Name': 'Tanmoy  Das', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Value for money'}, {'Product': 'Tv', 'Name': 'Wasim Ansari', 'Rating': '3', 'CommentHead': 'Decent product', 'Comment': 'Nice Product 👍'}, {'Product': 'Tv', 'Name': 'Partho Mondal', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': '5 star tv good quality'}, {'Product': 'Tv', 'Name': 'Sohil  Miragol ', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'A1 Quality'}, {'Product': 'Tv', 'Name': 'Ketan Thakare', 'Rating': '3', 'CommentHead': 'Does the job', 'Comment': 'Software Optimisation is very poor'}, {'Product': 'Tv', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Awesome tv!!!! Budget tv best tv ..... Little hang...Sometime it will get struck we can off and on the tv it will get to normal'}, {'Product': 'Tv', 'Name': 'Ganesh Anandan Chettiyar', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Worth for money. Reasonable price for smart tv picture quality very good'}, {'Product': 'Tv', 'Name': 'praveen Kumar', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Gud product in low budget Nice item from Flipkart value for money thanq'}, {'Product': 'Tv', 'Name': 'praveen Kumar', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Gud product in low budget Nice item from Flipkart value for money thanq'}]
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:04:10] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'boatstormcall', 'Name': 'Monu Sharma', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'First reviewer 🤩🤩Jst osm watchh'}, {'Product': 'boatstormcall', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Wonderful', 'Comment': 'Very nice'}, {'Product': 'boatstormcall', 'Name': 'Mahesh Mahesh', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Nice watch and Nice display'}, {'Product': 'boatstormcall', 'Name': 'Vijay Kumar', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Terrific Recommended Very Smooth and nice performance I Just loved the Alaways On Display and 60 hz refresh rate. Best watch for daily life 👌'}, {'Product': 'boatstormcall', 'Name': 'Arun  Dhandhukiya', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': "I like the watch ,display is fantastic, battery backup is very good ,in this range it's very reasonable ,design is superbbb love it."}, {'Product': 'boatstormcall', 'Name': 'Sanchit Sharma', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'This watch is amazing, the best thing about this watch is its Amoled display that is very bright and you can very easily control it under outdoor sunny environment. It is smooth as the refresh rate is 60hz. but strap is only one, should have been added one more i.e black, everyone loves black strap but its fine not a big deal.The functionality is very handy : I wear it in gym and keep my phone away and able to control music via this watch and it also helps in tracking heart beat, sp02, cal...'}, {'Product': 'boatstormcall', 'Name': 'Sonu Ghanghas', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': "I was looking for a good smartwatch and what can be better than this. As it not only look stylish but also have lots of interesting features. Also the battery lasts for really long time. It's a an ideal companion for a fitness enthusiast."}, {'Product': 'boatstormcall', 'Name': 'Emil Martins', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': "Feels like value for money, display is great, colour accuracy is correct, blutooth calling facility is not there but it doesn't meen it's a negative, because in which situation you use watch for calling?? actually calling feature is just gimmick, Temperature sensor is not there,wish if it's there, Over all feels like best buy.....60hz display feels goodCan read all messages through watch, all monitoring features feels accurate, sleep monitoring features give detailed report of your sleep..."}, {'Product': 'boatstormcall', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'When i wear this watch  i feel like mr india I have brought many watch but this the best one 😍'}, {'Product': 'boatstormcall', 'Name': 'Partha Dhara', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'One of the best amoled colour full display..🔥😍'}, {'Product': 'boatstormcall', 'Name': 'Partha Dhara', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'One of the best amoled colour full display..🔥😍'}]
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:05:26] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone14promax', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Awsum Perfect product from apple 👍🏼'}, {'Product': 'iphone14promax', 'Name': 'Taniya Poddar', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Awesome camera quality. Just love it.'}, {'Product': 'iphone14promax', 'Name': 'Sandhya Rani Mohapatra', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Finally after long wait I got my 512 GB IPhone 14 Pro Max, Deep Purple Colour. Superb Camera quality. Looks Premium. Upgraded from IPhone XR. Battery backup is nice. Thank you Flipkart for timely delivery.'}, {'Product': 'iphone14promax', 'Name': 'dipam', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'Very nice 👌 Awesome 👌'}, {'Product': 'iphone14promax', 'Name': 'New world Order NWO', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Bought 1TB pro Max .... Op product..... Delivered safely and effectively... Thank you ❤️'}, {'Product': 'iphone14promax', 'Name': 'Naresh Meher', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Superb camera superb built quality, display best in the market. 24hr minimum Battery backup. daily use moderately sometime play games but not often . 2things are awesome the sound , never ever experience this type of sound and last but not the least camera in night mode it is beast . Video 🔥'}, {'Product': 'iphone14promax', 'Name': 'Saurabh Kumar', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'King is here, it is really super se upar and flipkart delivery just mind blowing. Delivered early. Mine is pro max 512gb Silver colour.'}, {'Product': 'iphone14promax', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': "Finally, I got iPhone 14 Pro Max 512GB ( Deep Purple). Performance, Looks, Feels and Quality are awesome. Image and Video Quality are superb without any doubt. Don't think about it, Just go for it. JUST AWESOME. LOVED IT..."}, {'Product': 'iphone14promax', 'Name': 'Vikrant Porswal', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Excellent iPhone most beautifully crafted and technically mastered for perfection in all tasks !'}, {'Product': 'iphone14promax', 'Name': 'Awadh  Sharma', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Nothing to say about i phone 14 pro max Just Awesome'}, {'Product': 'iphone14promax', 'Name': 'Awadh  Sharma', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Nothing to say about i phone 14 pro max Just Awesome'}]
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:07:37] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:17:11] "GET / HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone13', 'Name': 'Amrit Deka', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': "My 1st iphone and I'm glad it is. With killer camera, amazing battery life, excellent performance this phone just rocks. The display even though is astounding but, in my opinion Samsung flagships displays are the best. I don't mind the display refresh rate being 60hz as you can hardly tell any difference in day to day use but, cmon apple it's 2022 and nowadays even 15-20k Android phones provide 120hz display. Last but not least security. Hmm well, there is no other phone as much secure as i..."}, {'Product': 'iphone13', 'Name': 'Badri Bishal  Pratihari ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Love this phone..... 😍'}, {'Product': 'iphone13', 'Name': 'Srinivash Bhoi', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Pros-rear Camera is awesome.double speaker sound equal loud and base is superb display superb. Design also good.Battery back up superb.Cons-front camera is good not awesomeAfter switching from android you feel one minus point is the display notch .'}, {'Product': 'iphone13', 'Name': 'Biswabandhu Debnath', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Best phone available at this price point.Camera is comparable with entry level DSLR(marvellous dynamic range)The performance is unmatchable.Shifted to iOS after 10 years of premium android smartphones.Go  for it without any second thought.'}, {'Product': 'iphone13', 'Name': 'Ashish  Kumar', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Just amazing'}, {'Product': 'iphone13', 'Name': 'Aniket Banerjee', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Too good'}, {'Product': 'iphone13', 'Name': 'Prasenjit Bar', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Best phone for day to day use and photography/videography.'}, {'Product': 'iphone13', 'Name': 'Shyam  Singh', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': ''}, {'Product': 'iphone13', 'Name': 'Pushpita Mayra', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Awesome phone Excellent camera quality'}, {'Product': 'iphone13', 'Name': 'Sachin Saini', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'My first I phone ..from a long time android user… apple camera is way ahead  ,.. interface is better than android….overall premium features and feeling. .;but prices way aboveboard'}, {'Product': 'iphone13', 'Name': 'Sachin Saini', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'My first I phone ..from a long time android user… apple camera is way ahead  ,.. interface is better than android….overall premium features and feeling. .;but prices way aboveboard'}]
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:17:17] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:18:04] "GET / HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone13', 'Name': 'Amrit Deka', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': "My 1st iphone and I'm glad it is. With killer camera, amazing battery life, excellent performance this phone just rocks. The display even though is astounding but, in my opinion Samsung flagships displays are the best. I don't mind the display refresh rate being 60hz as you can hardly tell any difference in day to day use but, cmon apple it's 2022 and nowadays even 15-20k Android phones provide 120hz display. Last but not least security. Hmm well, there is no other phone as much secure as i..."}, {'Product': 'iphone13', 'Name': 'Badri Bishal  Pratihari ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Love this phone..... 😍'}, {'Product': 'iphone13', 'Name': 'Srinivash Bhoi', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Pros-rear Camera is awesome.double speaker sound equal loud and base is superb display superb. Design also good.Battery back up superb.Cons-front camera is good not awesomeAfter switching from android you feel one minus point is the display notch .'}, {'Product': 'iphone13', 'Name': 'Biswabandhu Debnath', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Best phone available at this price point.Camera is comparable with entry level DSLR(marvellous dynamic range)The performance is unmatchable.Shifted to iOS after 10 years of premium android smartphones.Go  for it without any second thought.'}, {'Product': 'iphone13', 'Name': 'Ashish  Kumar', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Just amazing'}, {'Product': 'iphone13', 'Name': 'Aniket Banerjee', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Too good'}, {'Product': 'iphone13', 'Name': 'Prasenjit Bar', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Best phone for day to day use and photography/videography.'}, {'Product': 'iphone13', 'Name': 'Pushpita Mayra', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Awesome phone Excellent camera quality'}, {'Product': 'iphone13', 'Name': 'Sachin Saini', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'My first I phone ..from a long time android user… apple camera is way ahead  ,.. interface is better than android….overall premium features and feeling. .;but prices way aboveboard'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Excellent mobile.. dream purchase'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Excellent mobile.. dream purchase'}]
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:18:09] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone13', 'Name': 'Amrit Deka', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': "My 1st iphone and I'm glad it is. With killer camera, amazing battery life, excellent performance this phone just rocks. The display even though is astounding but, in my opinion Samsung flagships displays are the best. I don't mind the display refresh rate being 60hz as you can hardly tell any difference in day to day use but, cmon apple it's 2022 and nowadays even 15-20k Android phones provide 120hz display. Last but not least security. Hmm well, there is no other phone as much secure as i..."}, {'Product': 'iphone13', 'Name': 'Badri Bishal  Pratihari ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Love this phone..... 😍'}, {'Product': 'iphone13', 'Name': 'Srinivash Bhoi', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Pros-rear Camera is awesome.double speaker sound equal loud and base is superb display superb. Design also good.Battery back up superb.Cons-front camera is good not awesomeAfter switching from android you feel one minus point is the display notch .'}, {'Product': 'iphone13', 'Name': 'Biswabandhu Debnath', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Best phone available at this price point.Camera is comparable with entry level DSLR(marvellous dynamic range)The performance is unmatchable.Shifted to iOS after 10 years of premium android smartphones.Go  for it without any second thought.'}, {'Product': 'iphone13', 'Name': 'Ashish  Kumar', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Just amazing'}, {'Product': 'iphone13', 'Name': 'Aniket Banerjee', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Too good'}, {'Product': 'iphone13', 'Name': 'Prasenjit Bar', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Best phone for day to day use and photography/videography.'}, {'Product': 'iphone13', 'Name': 'Pushpita Mayra', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Awesome phone Excellent camera quality'}, {'Product': 'iphone13', 'Name': 'Sachin Saini', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'My first I phone ..from a long time android user… apple camera is way ahead  ,.. interface is better than android….overall premium features and feeling. .;but prices way aboveboard'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Excellent mobile.. dream purchase'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Excellent mobile.. dream purchase'}]
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:22:31] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:log my final result []
+INFO:root:documents must be a non-empty list
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:23:17] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone13', 'Name': 'Amrit Deka', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': "My 1st iphone and I'm glad it is. With killer camera, amazing battery life, excellent performance this phone just rocks. The display even though is astounding but, in my opinion Samsung flagships displays are the best. I don't mind the display refresh rate being 60hz as you can hardly tell any difference in day to day use but, cmon apple it's 2022 and nowadays even 15-20k Android phones provide 120hz display. Last but not least security. Hmm well, there is no other phone as much secure as i..."}, {'Product': 'iphone13', 'Name': 'Badri Bishal  Pratihari ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Love this phone..... 😍'}, {'Product': 'iphone13', 'Name': 'Srinivash Bhoi', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Pros-rear Camera is awesome.double speaker sound equal loud and base is superb display superb. Design also good.Battery back up superb.Cons-front camera is good not awesomeAfter switching from android you feel one minus point is the display notch .'}, {'Product': 'iphone13', 'Name': 'Biswabandhu Debnath', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Best phone available at this price point.Camera is comparable with entry level DSLR(marvellous dynamic range)The performance is unmatchable.Shifted to iOS after 10 years of premium android smartphones.Go  for it without any second thought.'}, {'Product': 'iphone13', 'Name': 'Ashish  Kumar', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Just amazing'}, {'Product': 'iphone13', 'Name': 'Aniket Banerjee', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Too good'}, {'Product': 'iphone13', 'Name': 'Prasenjit Bar', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Best phone for day to day use and photography/videography.'}, {'Product': 'iphone13', 'Name': 'Pushpita Mayra', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Awesome phone Excellent camera quality'}, {'Product': 'iphone13', 'Name': 'Sachin Saini', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'My first I phone ..from a long time android user… apple camera is way ahead  ,.. interface is better than android….overall premium features and feeling. .;but prices way aboveboard'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Excellent mobile.. dream purchase'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Excellent mobile.. dream purchase'}]
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:23:33] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone13', 'Name': 'Amrit Deka', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': "My 1st iphone and I'm glad it is. With killer camera, amazing battery life, excellent performance this phone just rocks. The display even though is astounding but, in my opinion Samsung flagships displays are the best. I don't mind the display refresh rate being 60hz as you can hardly tell any difference in day to day use but, cmon apple it's 2022 and nowadays even 15-20k Android phones provide 120hz display. Last but not least security. Hmm well, there is no other phone as much secure as i..."}, {'Product': 'iphone13', 'Name': 'Badri Bishal  Pratihari ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Love this phone..... 😍'}, {'Product': 'iphone13', 'Name': 'Srinivash Bhoi', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Pros-rear Camera is awesome.double speaker sound equal loud and base is superb display superb. Design also good.Battery back up superb.Cons-front camera is good not awesomeAfter switching from android you feel one minus point is the display notch .'}, {'Product': 'iphone13', 'Name': 'Biswabandhu Debnath', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Best phone available at this price point.Camera is comparable with entry level DSLR(marvellous dynamic range)The performance is unmatchable.Shifted to iOS after 10 years of premium android smartphones.Go  for it without any second thought.'}, {'Product': 'iphone13', 'Name': 'Ashish  Kumar', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Just amazing'}, {'Product': 'iphone13', 'Name': 'Aniket Banerjee', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Too good'}, {'Product': 'iphone13', 'Name': 'Prasenjit Bar', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Best phone for day to day use and photography/videography.'}, {'Product': 'iphone13', 'Name': 'Pushpita Mayra', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Awesome phone Excellent camera quality'}, {'Product': 'iphone13', 'Name': 'Sachin Saini', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'My first I phone ..from a long time android user… apple camera is way ahead  ,.. interface is better than android….overall premium features and feeling. .;but prices way aboveboard'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Excellent mobile.. dream purchase'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Excellent mobile.. dream purchase'}]
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:24:30] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone13', 'Name': 'Amrit Deka', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': "My 1st iphone and I'm glad it is. With killer camera, amazing battery life, excellent performance this phone just rocks. The display even though is astounding but, in my opinion Samsung flagships displays are the best. I don't mind the display refresh rate being 60hz as you can hardly tell any difference in day to day use but, cmon apple it's 2022 and nowadays even 15-20k Android phones provide 120hz display. Last but not least security. Hmm well, there is no other phone as much secure as i..."}, {'Product': 'iphone13', 'Name': 'Badri Bishal  Pratihari ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Love this phone..... 😍'}, {'Product': 'iphone13', 'Name': 'Srinivash Bhoi', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Pros-rear Camera is awesome.double speaker sound equal loud and base is superb display superb. Design also good.Battery back up superb.Cons-front camera is good not awesomeAfter switching from android you feel one minus point is the display notch .'}, {'Product': 'iphone13', 'Name': 'Biswabandhu Debnath', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Best phone available at this price point.Camera is comparable with entry level DSLR(marvellous dynamic range)The performance is unmatchable.Shifted to iOS after 10 years of premium android smartphones.Go  for it without any second thought.'}, {'Product': 'iphone13', 'Name': 'Ashish  Kumar', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Just amazing'}, {'Product': 'iphone13', 'Name': 'Aniket Banerjee', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Too good'}, {'Product': 'iphone13', 'Name': 'Prasenjit Bar', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Best phone for day to day use and photography/videography.'}, {'Product': 'iphone13', 'Name': 'Pushpita Mayra', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Awesome phone Excellent camera quality'}, {'Product': 'iphone13', 'Name': 'Sachin Saini', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'My first I phone ..from a long time android user… apple camera is way ahead  ,.. interface is better than android….overall premium features and feeling. .;but prices way aboveboard'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Excellent mobile.. dream purchase'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Excellent mobile.. dream purchase'}]
+INFO:root:Username and password must be escaped according to RFC 3986, use urllib.parse.quote_plus
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:30:47] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:34:04] "GET / HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'NothingPhone1', 'Name': 'Sayan Karak', 'Rating': '4', 'CommentHead': 'Delightful', 'Comment': 'Good all-rounder!Edit post 15days of using the device:-Cameras have improved significantly with the OTA update. Really have high hopes that with a few more tweaks, this will be one of the best cameras in this segment.- Post the notorious last OTA update which has come in, charging has taken a hit. The device now charges 80-85% in 60mins, whereas it used to charge around 90%+ before the update. The messed up this update big time.Some folks have complained about other issues but i have not...'}, {'Product': 'NothingPhone1', 'Name': 'Mohit Choudhary', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': "The camera is amazing.I've attached the samples.The regular photo does the job fine (2nd pic was through regular mode).But if you open the expert mode and fiddle around with ISO and shutter speed, you'll get some really great shots (1st and 3rd pic).The battery life before update gave a decent 6+hr SOT, but after update it's around 9hr which is simply amazing.Also the refresh rate was 120Hz, so if you limit it to 60 you may see even better battery life.I would highly recommend this de..."}, {'Product': 'NothingPhone1', 'Name': 'Trinanjan Sarkar', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'A great product overall . May be a little overpriced for some but the experience is quite good .  Camera : A very strong and optimised main sensor , UW is also quite great after update . Screen : great display , very visible difference when compared to normal Amoled displays . Battery : A 100 % charge will easily give you over 7 hours of Screen time on everyday usage . Performance: Do not expect flagship performance with 778+ but the apps open quite fast , no problem in daily life usage ....'}, {'Product': 'NothingPhone1', 'Name': 'PL Jaya Surya', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': "Selfie 7/10Primary camera 10/10Ultrawide camera 6/10Video recording 8/10Performance & Stability 8/10Design 10/10No Green Tint issueSoftware Experience 9/10Value for money 8/10Phone donr have major heating issues but gets warm regularly after 40 minutes of screen on time.Lots of bugs need to be fixed on software.Game mode need improvement and ultrawide sensor really need big updates .This could be a best buy if they fix all issues .Hands Of Nothing Team since it's your 1st phone..."}, {'Product': 'NothingPhone1', 'Name': 'Manish Giri', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'I think this is the beginning of new era for smartphones. And nothing phone 1 is gonna be the one who make other competitors to think about it. Best phone with all possible loaded features available in high end phones. Really appreciate your move. Applause. Would love to try next release.'}, {'Product': 'NothingPhone1', 'Name': 'ANKUR PRAJAPATI', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': "This Nothing Phone (1) is truly a beast. I bought it 1 month ago and tested it in every possible way. Camera, Display, Battery and Performance everything is just amazing.The Nothing Phone (1) utilizes a 6.55-inch OLED of 1080p resolution and 120Hz refresh. And because of this rather mainstream display, the phone doesn't really need the latest Snapdragon chipset. That's why Nothing has opted for the competent, albeit not top-tier, Snapdragon 778G+ 5G chipset, which has already proven itself...."}, {'Product': 'NothingPhone1', 'Name': 'Prasanth M A', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'I have been an  Android  user for the past 13 years I have never seen such a great camera performance in any Android display is best Camera 5/5Battery 4/5Display 5/5Performance 3.5/5Charging speed 3.5/5Product of quality is worth for every penny u pay'}, {'Product': 'NothingPhone1', 'Name': 'Arup Ratan Saha', 'Rating': '4', 'CommentHead': 'Pretty good', 'Comment': "Welcome to the review of the Nothing brand's Smartphone. After using it for a while, here's what we think about it:Starting with the camera, the back camera on this device is definitely its strong suit. It captures clear and sharp images with good color accuracy. However, the selfie camera is average at best. While it gets the job done, it lacks a wide-angle lens which can be a downside for those who take a lot of group selfies.Moving on to the display, we are happy to report that it is b..."}, {'Product': 'NothingPhone1', 'Name': 'Vidyadhar Reddy', 'Rating': '3', 'CommentHead': 'Decent Phone, but not Great. Maybe, my opinion can change', 'Comment': 'Exchanged my OnePlus 5 as there was an amazing offer but quick thoughts -Screen - really goodOs - feels like stock AndroidBattery charger - average, taking too much of time to chargeBattery backup - not great, draining fast (12% drain for ~ SOT)Camera - AverageHaptic - Excellent, top classSpeaker - Very GoodCall Quality - Very Good - no call drop, excellent clarity on speaker modeFinger print scanner - decentOverall feel in hand - ExcellentBluetooth connectivity - Very Good4G+ Re...'}, {'Product': 'NothingPhone1', 'Name': 'Manan Chitaliya', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Awsome Just New Look A Refreshed New LauncherAwsome Camera Setup The Picture Is Definitely Clear...Battery Runs GoodSoftware Experience Is Just Awsome Clean Fast And Safe Android To UseThe Back Lighting Is Also The Newer Look ....'}, {'Product': 'NothingPhone1', 'Name': 'Manan Chitaliya', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Awsome Just New Look A Refreshed New LauncherAwsome Camera Setup The Picture Is Definitely Clear...Battery Runs GoodSoftware Experience Is Just Awsome Clean Fast And Safe Android To UseThe Back Lighting Is Also The Newer Look ....'}]
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 00:34:18] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.27:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 10:52:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 10:52:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'op', 'Name': 'santosh kumar', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Perfect fit my mobile i like'}, {'Product': 'op', 'Name': 'Mangesh Rane', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Perfect ...'}, {'Product': 'op', 'Name': 'Krishna Bharti', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'This product is extremelyvery very good products'}, {'Product': 'op', 'Name': 'Flipkart Customer', 'Rating': '1', 'CommentHead': 'Absolute rubbish!', 'Comment': 'Very bad item'}, {'Product': 'op', 'Name': 'Muhammad  Rashid.p', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'Good quality'}, {'Product': 'op', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Good product'}, {'Product': 'op', 'Name': 'Sada Nand', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Good quality'}, {'Product': 'op', 'Name': 'Subodh Sadanshio ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'nice'}, {'Product': 'op', 'Name': 'Durgesh Yadav', 'Rating': '1', 'CommentHead': 'Horrible', 'Comment': 'Over size product'}, {'Product': 'op', 'Name': 'KARTHIKEYAN J ', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Good'}, {'Product': 'op', 'Name': 'KARTHIKEYAN J ', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Good'}]
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 10:52:45] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone13', 'Name': 'Amrit Deka', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': "My 1st iphone and I'm glad it is. With killer camera, amazing battery life, excellent performance this phone just rocks. The display even though is astounding but, in my opinion Samsung flagships displays are the best. I don't mind the display refresh rate being 60hz as you can hardly tell any difference in day to day use but, cmon apple it's 2022 and nowadays even 15-20k Android phones provide 120hz display. Last but not least security. Hmm well, there is no other phone as much secure as i..."}, {'Product': 'iphone13', 'Name': 'Badri Bishal  Pratihari ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Love this phone..... 😍'}, {'Product': 'iphone13', 'Name': 'Srinivash Bhoi', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Pros-rear Camera is awesome.double speaker sound equal loud and base is superb display superb. Design also good.Battery back up superb.Cons-front camera is good not awesomeAfter switching from android you feel one minus point is the display notch .'}, {'Product': 'iphone13', 'Name': 'Biswabandhu Debnath', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Best phone available at this price point.Camera is comparable with entry level DSLR(marvellous dynamic range)The performance is unmatchable.Shifted to iOS after 10 years of premium android smartphones.Go  for it without any second thought.'}, {'Product': 'iphone13', 'Name': 'Ashish  Kumar', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Just amazing'}, {'Product': 'iphone13', 'Name': 'Aniket Banerjee', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Too good'}, {'Product': 'iphone13', 'Name': 'Prasenjit Bar', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Best phone for day to day use and photography/videography.'}, {'Product': 'iphone13', 'Name': 'Pushpita Mayra', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Awesome phone Excellent camera quality'}, {'Product': 'iphone13', 'Name': 'Sachin Saini', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'My first I phone ..from a long time android user… apple camera is way ahead  ,.. interface is better than android….overall premium features and feeling. .;but prices way aboveboard'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Excellent mobile.. dream purchase'}, {'Product': 'iphone13', 'Name': 'Srinivas goud madgula', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Excellent mobile.. dream purchase'}]
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.2 - - [10/Jul/2023 10:52:57] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.27:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
